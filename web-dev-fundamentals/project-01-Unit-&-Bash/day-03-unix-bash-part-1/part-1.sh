@@ -1,3 +1,6 @@
+#!/bin/bash 
+
+
 mkdir unix_tests
 touch trybe.txt
 mv trybe.txt trybe_backup.txt
