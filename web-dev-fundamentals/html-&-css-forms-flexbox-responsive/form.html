@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header-title" >Hey, are you ok?</header>
+    <main>
+        <div id="name-email">
+            <label for="hello">Name</label>
+            <input type="text" name="hello" id="name-input" maxlength="30" minlength="10" required>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email-input" maxlength="30"  minlength="10" required>
+        </div>
+        <div id="trip">
+            <label for="chooseTrip">Where do you want to go?</label>
+        </div>
+        <div>
+            <input type="radio" name="chooseTrip" id="">City
+            <input type="radio" name="chooseTrip" id="">Countryside
+            <input type="radio" name="chooseTrip" id="">Beach
+            <input type="radio" name="chooseTrip" id="">Mountains
+        </div>
+        <div id="input-text">
+            <p>Why do you want to go there?</p>
+            <textarea id="text-area" cols="70" rows="7" maxlength="300" minlength="50"></textarea>
+        </div>
+        <label for="time">Best time to your visit:</label>
+        <input type="date" name="time" id="">
+        <div>
+            <label for="option1">Would you like to receive notifications</label>
+            <input type="checkbox" name="option1" id="">
+            <div>
+                <label for="option2">Fair use:</label>
+                <input type="checkbox" name="option2" id="">
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="submit-btn" type="submit">Submit</button>
+            <button id="erase-btn">Erase</button>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    
+</body>
+</html>

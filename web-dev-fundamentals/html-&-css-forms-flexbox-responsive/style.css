@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+html , body {
+    margin: 0;
+}
+
+
+
+#name-email {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30px;
+    margin-top: 20px;
+}
+
+#submit-btn , #erase-btn {
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 20px;
+    width: 120px;
+}
+
+#name-input , #email-input {
+    background-color: bisque;
+    height: 20px;
+    width: 120px;
+}
+
+#header-title {
+    font-size: 30px;
+    color: blue;
+}
+
+#trip {
+    margin-top: 20px;
+}
