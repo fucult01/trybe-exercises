@@ -29,7 +29,7 @@ function decode(string) {
     5: 'u',
   };
   return convert(obj, string);
-}
+} 
 
 const functions = { encode, decode };
 module.exports = functions;
