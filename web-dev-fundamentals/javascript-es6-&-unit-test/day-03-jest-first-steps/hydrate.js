@@ -12,5 +12,5 @@ const hydrate = (string) => {
   
     return `${glassesOfWater} ${glass} de água`;
 };
-   
+    
 module.exports = hydrate;
